@@ -151,8 +151,8 @@ async def upload_video(msg: Message,file,id,tit,name,ttl,videox):
         daze = await x.edit(output, parse_mode = "markdown")               
     except Exception:
        await app.send_message(message.chat.id, text="Something Went Wrong!")
-proname = f"{gofuk_text}"
-killme = await videox.edit(proname)
+        proname = f"{gofuk_text}"
+        killme = await videox.edit(proname)
     try:
 
             await r.delete()

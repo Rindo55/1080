@@ -6,8 +6,8 @@ from pyrogram.types import Message
 from config import STATUS_ID, INDEX_ID, UPLOADS_ID, SCHEDULE_ID, UPLOADS_USERNAME
 
 GHOST_ID = -1001948444792
-IST_ID = 15849
-US_ID = 15858
+IST_ID = 103
+US_ID = 104
 schedule = app.get_messages(GHOST_ID,IST_ID)
 schedule: Message
 

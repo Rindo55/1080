@@ -148,11 +148,11 @@ async def upload_video(msg: Message,file,id,tit,name,ttl,videox):
 ━━━━━━━━━━━━━━━━━━━
 **External Download Links**
 [Filechan]({nyaa_text})  |  [Gofile]({gofuk_text})  |  [KrakenFiles]({krfuk_text})"""
-        daze = await x.edit(output, parse_mode = "markdown")               
-    except Exception:
-       await app.send_message(message.chat.id, text="Something Went Wrong!")
+        daze = await x.edit(output, parse_mode = "markdown")    
         proname = f"{gofuk_text}"
         killme = await videox.edit(proname)
+    except Exception:
+       await app.send_message(message.chat.id, text="Something Went Wrong!")
     try:
 
             await r.delete()

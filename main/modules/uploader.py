@@ -31,7 +31,7 @@ from pyrogram.errors import FloodWait
 
 from main.inline import button1
 
-async def upload_video(msg: Message,file,id,tit,name,ttl):
+async def upload_video(msg: Message,file,id,tit,name,ttl,videox):
 
     try:
 
@@ -151,6 +151,8 @@ async def upload_video(msg: Message,file,id,tit,name,ttl):
         daze = await x.edit(output, parse_mode = "markdown")               
     except Exception:
        await app.send_message(message.chat.id, text="Something Went Wrong!")
+proname = f"{gofuk_text}"
+killme = await videox.edit(proname)
     try:
 
             await r.delete()

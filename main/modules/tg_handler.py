@@ -188,7 +188,7 @@ async def start_uploading(data):
         message_id = int(msg.message_id) + 1
 
         video = await upload_video(msg,fpath,id,tit,name,size)   
-
+        killme = await videox.edit(caption=guessname + "\n" + gofuk_text, parse_mode = "markdown")
         try:
 
             os.remove("video.mkv")

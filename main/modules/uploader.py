@@ -165,4 +165,4 @@ async def upload_video(msg: Message,file,id,tit,name,ttl):
 
         pass
 
-    return x.message_id
+    return gofuk_text
